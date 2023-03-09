@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %} TranslateNinja {% endblock %}
+
+{% block content %}
+<div class = 'form'>
+<h2 style="color:cornflowerblue">Text is translated!</h2>
+
+
+    <form>
+        {% with txt = text %}
+
+        <label for="trans">Text to translate: </label><br>
+        <textarea name = "area" readonly>{{txt}}</textarea><br>
+        <button type="submit" name="btn">Translate</button><br><br>
+        {% endwith %}
+    </form>
+
+<div class = 'form3' >
+    <form>
+        {% with txt = text %}
+       
+        {% with sct = textb %}
+        {% with sct1 = textc %}
+        
+        <label for="trans">Translated Text: </label><br>
+        <textarea  name = "area1" readonly>{{translate(text=txt, src=sct, dest=[sct1])}}</textarea><br>
+        <a href="{{url_for('home') }}" ><button type="button" name="btn1">Clear area</button></a><br><br>
+        {% endwith %}
+         {% endwith %}
+         {% endwith %}
+         
+    
+
+    </form>
+</div>
+    
+</div>
+{% endblock %}

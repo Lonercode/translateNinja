@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} oops {% endblock %}
+
+{% block content %}
+{% with e = e %}
+<div class= "err" >
+<h1><b>Oops! It appears there is an error</b></h1>
+<p><em>{{e}}</em></p>
+{% endwith %}
+<p><b>Let us walk you through it</b></p>
+<ol>
+    <li>Did you remember to fill in all required text fields? </li>
+    <li>Are you connected to the internet? Even if you are try disconnecting and reconnecting again.</li>
+    <li>Are you straining your eyes or sleeping too little? Take a break for a while. You may just be tired.</li>
+</ol>
+</div>
+{% endblock %}
