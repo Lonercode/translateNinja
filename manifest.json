@@ -1,0 +1,28 @@
+{
+    "name": "Translate Ninja",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#6495ED",
+    "background_color": "#6495ED",
+    "icons": [
+      {
+        "src": "/static/ninja.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/ninja.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/ninja.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

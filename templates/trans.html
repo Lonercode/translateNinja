@@ -23,9 +23,12 @@
         {% with sct = textb %}
         {% with sct1 = textc %}
         
+        
         <label for="trans">Translated Text: </label><br>
         <textarea  name = "area1" readonly>{{translate(text=txt, src=sct, dest=[sct1])}}</textarea><br>
         <a href="{{url_for('home') }}" ><button type="button" name="btn1">Clear area</button></a><br><br>
+        <audio controls src="{{url_for('static', filename='translated.mp3')}}"></audio><br><br>
+        
         {% endwith %}
          {% endwith %}
          {% endwith %}
