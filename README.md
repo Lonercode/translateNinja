@@ -1,7 +1,7 @@
 # translate-ninja
 >
-> ***The app targets flask ***\
-> link to web app here <a href = 'https://penpalclassmate.pythonanywhere.com/'>translateNinja</a>. It can be installed as a progrewssive web app (PWA)
+> ***The app targets flask 2.3.3***\
+> link to web app here <a href = 'https://penpalclassmate.pythonanywhere.com/'>translateNinja</a>. It can be installed as a progressive web app (PWA)
 
 ## Start here
 
