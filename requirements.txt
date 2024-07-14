@@ -1,0 +1,7 @@
+Flask==2.3.3
+Flask-Googletrans==0.11
+Flask-gTTS==0.18
+Flask-PyMongo==2.3.0
+googletrans==4.0.0rc1
+gTTS==2.5.1
+requests==2.31.0
