@@ -6,7 +6,7 @@
 ## Start here
 
 
-To use the app, you would need Flask installed. All required installations are in the requirements.txt\
+To use the app, you would need Flask installed. All required installations are in the requirements.txt
 
 
 ### Steps to run project
