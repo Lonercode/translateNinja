@@ -21,6 +21,7 @@ To use the app, you would need Flask installed. All required installations are i
 
 
 2. *Set up a Virtual environment*
+
 *windows*
 ```bash
     python -m venv venv
@@ -32,6 +33,7 @@ To use the app, you would need Flask installed. All required installations are i
 ```
 
 3. *Activate the Environment*
+
 *windows*
 ```bash
     venv\Scripts\activate
