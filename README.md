@@ -53,7 +53,7 @@ To use the app, you would need Flask installed. All required installations are i
     pip install -r requirements.txt
 ```
 
-6. *Start the Application*
+5. *Start the Application*
 
 >Run the *translate.py* app.
 
