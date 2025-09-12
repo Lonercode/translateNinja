@@ -1,3 +1,5 @@
+<img width="1920" height="960" alt="translate" src="https://github.com/user-attachments/assets/b16eba3a-d043-49e0-b19e-841b092c38ed" />
+
 # translate-ninja
 >
 > ***The app targets flask 2.3.3***\
